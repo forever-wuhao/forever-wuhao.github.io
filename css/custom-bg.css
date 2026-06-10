@@ -1,9 +1,9 @@
 /* 首页背景图手机端适配 */
 @media screen and (max-width: 768px) {
   #page-header.full_page {
-    background-attachment: scroll;
-    background-position: center top;
-    background-size: contain;
-    background-color: #1a1a2e;
+    background-image: url(/index-phone.png) !important;
+    background-attachment: scroll !important;
+    background-position: center center !important;
+    background-size: cover !important;
   }
 }
